@@ -2,9 +2,7 @@
 
 > Read Scripture while Claude thinks.
 
-## One-line Setup
-
-Paste this into Claude Code:
+# Paste this into Claude Code:
 
 ```
 Clone https://github.com/lukeprofits/claude-bible-verse-spinner, read the CLAUDE.md, and follow its instructions
@@ -15,7 +13,7 @@ It will ask you to pick a translation and which books to include. Hit enter to a
 To switch translations later, just run it again.
 
 ---
-# What It Does
+## What It Does
 
 Replaces Claude Code's thinking spinner with random Bible verses. Instead of seeing generic status text, you'll see something like:
 
