@@ -1,5 +1,16 @@
-When asked to set up Bible verse spinners, run: `node setup.mjs`
-The script is interactive and will guide the user through all options.
+When asked to set up Bible verse spinners:
+
+1. Ask the user which Bible version they want (ESV is default): ESV, NIV, NET, NASB, KJV, NKJV
+2. Ask if they want all books, or specific ones
+3. Run the script with CLI flags (do NOT use interactive mode — it requires stdin which you can't provide):
+
+```
+node setup.mjs --version ESV --books all
+node setup.mjs --version KJV --books "only:Psalms,Proverbs,John"
+node setup.mjs --version NIV --books "all-except:Leviticus,Numbers"
+```
+
+The script will fetch the verses and update ~/.claude/settings.json automatically.
 
 ## If the API is down
 
