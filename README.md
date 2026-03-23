@@ -14,8 +14,11 @@ To switch translations later, just run it again.
 
 ---
 ## What It Does
-
 Replaces Claude Code's thinking spinner with random Bible verses. Instead of seeing generic status text, you'll see something like:
+
+<center>
+  <img width="740" height="185" alt="image" src="https://github.com/user-attachments/assets/2ad083cf-e876-431c-ba66-bace2fac8f0d" />
+</center>
 
 **Before:**
 ```
