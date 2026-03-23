@@ -2,7 +2,22 @@
 
 > Read Scripture while Claude thinks.
 
-Replace Claude Code's thinking spinner with random Bible verses. Instead of seeing generic status text, you'll see something like:
+## One-line Setup
+
+Paste this into Claude Code:
+
+```
+Clone https://github.com/lukeprofits/claude-bible-verse-spinner, read the CLAUDE.md, and follow its instructions
+```
+
+It will ask you to pick a translation and which books to include. Hit enter to accept the defaults (ESV, all books) or customize. One minute setup, and you're done.
+
+To switch translations later, just run it again.
+
+---
+# What It Does
+
+Replaces Claude Code's thinking spinner with random Bible verses. Instead of seeing generic status text, you'll see something like:
 
 **Before:**
 ```
@@ -16,19 +31,6 @@ Romans 12:2 - Do not be conformed to this world, but be transformed by the renew
 
 ---
 
-## Setup
-
-Paste this into Claude Code:
-
-```
-Clone https://github.com/lukeprofits/claude-bible-verse-spinner, read the CLAUDE.md, and follow its instructions
-```
-
-It will ask you to pick a translation and which books to include. Hit enter to accept the defaults (ESV, all books) or customize. One minute setup, and you're done.
-
-To switch translations later, just run it again.
-
----
 
 ## How It Works
 
