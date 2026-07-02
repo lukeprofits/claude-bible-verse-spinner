@@ -1,3 +1,5 @@
+> ⚠️ In v2.1.198, `settings.json` was limited to 1mb. Only ~1/5th of the bible fits now. I suggest selecting specific books.
+
 # Bible Verse Spinner for Claude Code
 
 > Read Scripture while Claude thinks.
